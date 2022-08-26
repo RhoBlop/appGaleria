@@ -14,7 +14,7 @@
         android:theme="@style/Theme.AppGaleria"
         tools:targetApi="31">
         <activity
-            android:name=".MainActivity"
+            android:name="thiago.neves.neves.thiago.appGaleria.MainActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
