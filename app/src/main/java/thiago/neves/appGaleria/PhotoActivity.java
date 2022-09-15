@@ -42,7 +42,7 @@ public class PhotoActivity extends AppCompatActivity {
         switch (item.getItemId()) {
             // caso seja o id do menu item de share, intent para compartilhar imagem é executado
             case R.id.opShare:
-                sharePhoto();
+                // sharePhoto();
                 return true;
             default:
                 return super.onOptionsItemSelected(item);

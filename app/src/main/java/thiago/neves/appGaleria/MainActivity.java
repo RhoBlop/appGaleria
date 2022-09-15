@@ -37,7 +37,7 @@ public class MainActivity extends AppCompatActivity {
         switch (item.getItemId()) {
             // caso seja o id do menu item da camêra, intent para abrir camêra é executado
             case R.id.opCamera:
-                dispatchTakePictureIntent();
+                // dispatchTakePictureIntent();
                 return true;
             default:
                 return super.onOptionsItemSelected(item);
