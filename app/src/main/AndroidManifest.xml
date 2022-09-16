@@ -15,7 +15,7 @@
         tools:targetApi="31">
 
         <provider
-            android:authorities="trindade.daniel.galeria.fileprovider"
+            android:authorities="thiago.neves.appGaleria.fileprovider"
             android:name="androidx.core.content.FileProvider"
             android:exported="false"
             android:grantUriPermissions="true">
