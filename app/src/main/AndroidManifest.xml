@@ -3,6 +3,9 @@
     xmlns:tools="http://schemas.android.com/tools"
     package="thiago.neves.appGaleria">
 
+    <uses-feature android:name="android.hardware.camera" android:required="true"/>
+    <uses-permission android:name="android.permission.CAMERA" />
+
     <application
         android:allowBackup="true"
         android:dataExtractionRules="@xml/data_extraction_rules"
